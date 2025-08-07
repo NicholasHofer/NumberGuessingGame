@@ -43,7 +43,7 @@ def start_game():
     winner = False
     while current_guess > 0:
         try:
-            guess = int(input(f"Enter your guess (hint, the number is {i}): "))
+            guess = int(input(f"Enter your guess: "))
             if guess == i:
                 winner = True
                 break
